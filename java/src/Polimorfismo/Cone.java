@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Cone extends Generica {
+public class Cone {
 
     Cone() {
 

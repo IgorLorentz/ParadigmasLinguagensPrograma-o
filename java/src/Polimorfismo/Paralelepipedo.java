@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Paralelepipedo extends Generica{
+public class Paralelepipedo {
     Paralelepipedo(){
 
     }

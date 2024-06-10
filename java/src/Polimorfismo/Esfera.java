@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Esfera extends Generica {
+public class Esfera {
 
     Esfera() {
 

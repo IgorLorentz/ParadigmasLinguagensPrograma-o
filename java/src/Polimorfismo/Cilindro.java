@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public class Cilindro extends Generica {
+public class Cilindro {
 
     Cilindro() {
 
