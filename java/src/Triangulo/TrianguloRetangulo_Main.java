@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TrianguloRetangulo_Main {
     private static TrianguloRetangulo triRet;
     public static void main(String[] args) {
-        //Alternativa 1 
+        //Alternativa 1
         triRet = new TrianguloRetangulo();
         imprimeTriangulo(triRet);
         triRet = null;
