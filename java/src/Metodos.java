@@ -33,31 +33,24 @@ public class Metodos {
 
     // }
 
-    public int NumerosPrimos(int x) {
+    public int [] NumerosPrimos(int x) {
         int cont = 0;
-
+        int[] primos = new int[x + 1];
         if (x <= 1)
-            return 0;
-        boolean[] isPrime = new boolean[x + 1];
+            return primos;
+
         for (int i = 2; i <= x; i++) {
-            isPrime[i] = true;
+            primos[i] = 0;
         }
 
         for (int p = 2; p * p <= x; p++) {
-            if (isPrime[p]) {
+            if (primos[p]) {
                 for (int i = p * p; i <= x; i += p) {
-                    isPrime[i] = false;
+                    primos[i] = false;
                 }
             }
         }
 
-        // Conta o número de primos no array
-        int primos = 0;
-        for (int i = 2; i <= x; i++) {
-            if (isPrime[i]) {
-                primos++;
-            }
-        }
         return primos;
     }
 
