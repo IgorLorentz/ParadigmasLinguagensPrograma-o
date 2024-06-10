@@ -1,8 +1,5 @@
 
 public class Metodos {
-    public static void main(String[] args) {
-
-    }
 
     public int MaiorNumero(int v[]) {
         int maiorNum = -1;
@@ -95,12 +92,12 @@ public class Metodos {
     public int DecToBin(int x) {
         String bin = " ";
         int resultado = 0;
-        for (int i = 0; i > 0; i++) {
+        while (x>0){
             bin += x % 2;
             System.out.println(bin);
             x = x / 2;
         }
-        resultado = Integer.valueOf(bin);
+        resultado = Integer.parseInt(bin);
 
     return resultado;
     }
