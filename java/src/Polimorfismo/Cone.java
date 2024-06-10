@@ -1,9 +1,12 @@
 package Polimorfismo;
 
-public class Cone {
+public class Cone extends Figuras{
 
-    Cone() {
-
+    Cone(String nome, int dim1, int dim2, int dim3) {
+        this.nome = nome;
+        this.dim1 = dim1;
+        this.dim2 = dim2;
+        this.dim3 = dim3;
     }
 
     public double volume(double dim1, double dim3) {
@@ -16,5 +19,8 @@ public class Cone {
         double area;
         area = (Math.PI * Math.pow(dim1, 2)) + (Math.PI * dim1 * dim2);
         return area;
+    }
+    void display(){
+        System.out.println(nome + dim1 + dim2 + dim3);
     }
 }
