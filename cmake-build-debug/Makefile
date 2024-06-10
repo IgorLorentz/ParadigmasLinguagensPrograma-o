@@ -153,6 +153,30 @@ cpp/HelloWorld.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/HelloWorld.cpp.s
 .PHONY : cpp/HelloWorld.cpp.s
 
+cpp/Ponteiros.o: cpp/Ponteiros.cpp.o
+.PHONY : cpp/Ponteiros.o
+
+# target to build an object file
+cpp/Ponteiros.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.o
+.PHONY : cpp/Ponteiros.cpp.o
+
+cpp/Ponteiros.i: cpp/Ponteiros.cpp.i
+.PHONY : cpp/Ponteiros.i
+
+# target to preprocess a source file
+cpp/Ponteiros.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.i
+.PHONY : cpp/Ponteiros.cpp.i
+
+cpp/Ponteiros.s: cpp/Ponteiros.cpp.s
+.PHONY : cpp/Ponteiros.s
+
+# target to generate assembly for a file
+cpp/Ponteiros.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.s
+.PHONY : cpp/Ponteiros.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... cpp/HelloWorld.o"
 	@echo "... cpp/HelloWorld.i"
 	@echo "... cpp/HelloWorld.s"
+	@echo "... cpp/Ponteiros.o"
+	@echo "... cpp/Ponteiros.i"
+	@echo "... cpp/Ponteiros.s"
 .PHONY : help
 
 

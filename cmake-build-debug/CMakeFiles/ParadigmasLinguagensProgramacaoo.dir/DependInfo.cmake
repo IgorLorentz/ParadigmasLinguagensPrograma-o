@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/HelloWorld.cpp" "CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/HelloWorld.cpp.o" "gcc" "CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/HelloWorld.cpp.o.d"
+  "/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Ponteiros.cpp" "CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.o" "gcc" "CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -85,6 +85,9 @@
 		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/HelloWorld.cpp">
 			<Option target="ParadigmasLinguagensProgramacaoo"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Ponteiros.cpp">
+			<Option target="ParadigmasLinguagensProgramacaoo"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
