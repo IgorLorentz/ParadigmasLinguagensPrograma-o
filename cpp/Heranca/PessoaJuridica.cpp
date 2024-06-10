@@ -1,3 +1,4 @@
-//
-// Created by luiza on 10/06/2024.
-//
+class PessoaJuridica : public Pessoa {
+    int cnpj;
+    int inscricaoEstadual;
+};

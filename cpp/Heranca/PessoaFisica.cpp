@@ -1,3 +1,6 @@
-//
-// Created by luiza on 10/06/2024.
-//
+#include "Pessoa.h"
+
+class PessoaFisica : public Pessoa{
+    int cpf;
+    int rg;
+};
