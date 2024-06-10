@@ -153,6 +153,30 @@ cpp/HelloWorld.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/HelloWorld.cpp.s
 .PHONY : cpp/HelloWorld.cpp.s
 
+cpp/Heranca/PessoaJuridica.o: cpp/Heranca/PessoaJuridica.cpp.o
+.PHONY : cpp/Heranca/PessoaJuridica.o
+
+# target to build an object file
+cpp/Heranca/PessoaJuridica.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.o
+.PHONY : cpp/Heranca/PessoaJuridica.cpp.o
+
+cpp/Heranca/PessoaJuridica.i: cpp/Heranca/PessoaJuridica.cpp.i
+.PHONY : cpp/Heranca/PessoaJuridica.i
+
+# target to preprocess a source file
+cpp/Heranca/PessoaJuridica.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.i
+.PHONY : cpp/Heranca/PessoaJuridica.cpp.i
+
+cpp/Heranca/PessoaJuridica.s: cpp/Heranca/PessoaJuridica.cpp.s
+.PHONY : cpp/Heranca/PessoaJuridica.s
+
+# target to generate assembly for a file
+cpp/Heranca/PessoaJuridica.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.s
+.PHONY : cpp/Heranca/PessoaJuridica.cpp.s
+
 cpp/Ponteiros.o: cpp/Ponteiros.cpp.o
 .PHONY : cpp/Ponteiros.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... cpp/HelloWorld.o"
 	@echo "... cpp/HelloWorld.i"
 	@echo "... cpp/HelloWorld.s"
+	@echo "... cpp/Heranca/PessoaJuridica.o"
+	@echo "... cpp/Heranca/PessoaJuridica.i"
+	@echo "... cpp/Heranca/PessoaJuridica.s"
 	@echo "... cpp/Ponteiros.o"
 	@echo "... cpp/Ponteiros.i"
 	@echo "... cpp/Ponteiros.s"
