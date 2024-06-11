@@ -1,9 +1,8 @@
 #include <iostream>
-#include <ClasseA.h>
-#include <ClasseA1.h>
-#include <ClasseA2.h>
-#include <ClasseA3.h>
-
+#include "ClasseA.h"
+#include "ClasseA1.h"
+#include "ClasseA2.h"
+#include "ClasseA3.h"
 
 using namespace std;
 

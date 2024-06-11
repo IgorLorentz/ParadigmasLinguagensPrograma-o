@@ -1,4 +1,6 @@
-#include <ClasseA.h>
+#include "ClasseA.h"
+
+ClasseA::ClasseA(){}
 
 double ClasseA::calculo(double x)
 {
