@@ -42,7 +42,7 @@ public class Metodos {
 
     public List<Integer> NumerosPrimos(int x) {
         List<Integer> primos = new ArrayList<>();
-        
+
         boolean[] ePrimo = new boolean[x + 1];
         for (int i = 2; i <= x; i++) {
             ePrimo[i] = true;
