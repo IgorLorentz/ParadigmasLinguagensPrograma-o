@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Funcoes.cpp">
+			<Option target="ParadigmasLinguagensProgramacaoo"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/HelloWorld.cpp">
+			<Option target="ParadigmasLinguagensProgramacaoo"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Heranca/PessoaFisica.cpp">
 			<Option target="ParadigmasLinguagensProgramacaoo"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Heranca/PessoaJuridica.cpp">

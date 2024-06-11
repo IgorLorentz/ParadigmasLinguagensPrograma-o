@@ -111,11 +111,41 @@ CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Heranca/PessoaJuridica.cpp -o CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.s
 
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/flags.make
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o: ../cpp/Funcoes.cpp
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o -MF CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o.d -o CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o -c /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Funcoes.cpp
+
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Funcoes.cpp > CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.i
+
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Funcoes.cpp -o CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.s
+
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/flags.make
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o: ../cpp/Heranca/PessoaFisica.cpp
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o -MF CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o.d -o CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o -c /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Heranca/PessoaFisica.cpp
+
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Heranca/PessoaFisica.cpp > CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.i
+
+CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cpp/Heranca/PessoaFisica.cpp -o CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.s
+
 # Object files for target ParadigmasLinguagensProgramacaoo
 ParadigmasLinguagensProgramacaoo_OBJECTS = \
 "CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/HelloWorld.cpp.o" \
 "CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.o" \
-"CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.o"
+"CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.o" \
+"CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o" \
+"CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o"
 
 # External object files for target ParadigmasLinguagensProgramacaoo
 ParadigmasLinguagensProgramacaoo_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ ParadigmasLinguagensProgramacaoo_EXTERNAL_OBJECTS =
 ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/HelloWorld.cpp.o
 ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Ponteiros.cpp.o
 ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaJuridica.cpp.o
+ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Funcoes.cpp.o
+ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/cpp/Heranca/PessoaFisica.cpp.o
 ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/build.make
 ParadigmasLinguagensProgramacaoo: CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ParadigmasLinguagensProgramacaoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/luiza/Documents/ParadigmasLinguagensProgramacaoo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ParadigmasLinguagensProgramacaoo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ParadigmasLinguagensProgramacaoo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
