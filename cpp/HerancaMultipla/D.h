@@ -1,14 +1,14 @@
-//
-// Created by luiza on 11/06/2024.
-//
-
-#ifndef PARADIGMASLINGUAGENSPROGRAMACAOO_D_H
-#define PARADIGMASLINGUAGENSPROGRAMACAOO_D_H
-
+#ifndef D_H
+#define D_H
 
 class D {
+public:
+    D();
+    char d;
 
+protected:
+
+private:
 };
 
-
-#endif //PARADIGMASLINGUAGENSPROGRAMACAOO_D_H
+#endif D_H

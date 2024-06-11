@@ -1,5 +1,6 @@
-//
-// Created by luiza on 11/06/2024.
-//
-
+#include <stdio.h>
 #include "D.h"
+    D::D() {
+        printf("\nConstrutor D");
+        d = 'd';
+}

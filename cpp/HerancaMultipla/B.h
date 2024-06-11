@@ -1,14 +1,18 @@
-//
-// Created by luiza on 11/06/2024.
-//
+#ifndef B_H
+#define B_H
 
-#ifndef PARADIGMASLINGUAGENSPROGRAMACAOO_B_H
-#define PARADIGMASLINGUAGENSPROGRAMACAOO_B_H
+#include <iostream>
+#include "D.h"
 
+class B : public D {
+public:
+    B();
 
-class B {
+    std::string b;
+    std::string mesmoNome;
+protected:
 
+private:
 };
 
-
-#endif //PARADIGMASLINGUAGENSPROGRAMACAOO_B_H
+#endif B_H

@@ -1,14 +1,16 @@
-//
-// Created by luiza on 11/06/2024.
-//
+#ifndef A_H
+#define A_H
 
-#ifndef PARADIGMASLINGUAGENSPROGRAMACAOO_A_H
-#define PARADIGMASLINGUAGENSPROGRAMACAOO_A_H
+#include "B.h"
+#include "C.h"
 
+class A : public B, public C {
+public:
+    A();
 
-class A {
-
+    char a;
+protected:
+private:
 };
 
-
-#endif //PARADIGMASLINGUAGENSPROGRAMACAOO_A_H
+#endif A_H
