@@ -28,6 +28,10 @@ public class Figuras_Main {
                     System.out.println("Informe o raio!");
                     dim1 = scanner.nextDouble();
                     Esfera esfera = new Esfera( nome, dim1);
+
+                    esfera.display();
+                    esfera.aumentar();
+                    esfera.display();
                     break;
 
                 case 2:
@@ -37,6 +41,11 @@ public class Figuras_Main {
                     System.out.println("Informe a altura!");
                     dim2 = scanner.nextDouble();
                     Cilindro cilindro = new Cilindro( nome, dim1, dim2);
+
+                    cilindro.display();
+                    cilindro.aumentar();
+                    cilindro.display();
+
                     break;
 
                 case 3:
@@ -48,6 +57,10 @@ public class Figuras_Main {
                     System.out.println("Informe a altura!");
                     dim3 = scanner.nextDouble();
                     Cone cone = new Cone( nome, dim1, dim2, dim3);
+
+                    cone.display();
+                    cone.aumentar();
+                    cone.display();
                     break;
 
                 case 4:
@@ -59,9 +72,11 @@ public class Figuras_Main {
                     System.out.println("Informe a profundidade!");
                     dim3 = scanner.nextDouble();
                     Paralelepipedo paralelepipedo = new Paralelepipedo( nome, dim1, dim2, dim3);
-                    break;
 
-                
+                    paralelepipedo.display();
+                    paralelepipedo.aumentar();
+                    paralelepipedo.display();
+                    break;
             }
         }
 

@@ -23,4 +23,9 @@ public class Cilindro extends Figuras {
     void display(){
         System.out.println(nome + dim1 + dim2);
     }
+
+    public void aumentar(){
+        dim1 = aumento*dim1;
+        dim2 = aumento*dim2;
+    }
 }
