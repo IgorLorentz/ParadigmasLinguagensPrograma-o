@@ -1,7 +1,14 @@
 package Heranca;
 
-public class Pessoa 
-{
+public class Pessoa {
+    Pessoa() {
+
+    }
+
+    Pessoa(String nome) {
+        this.nome = nome;
+    }
+
     protected String nome;
     protected String logradouro;
     protected String bairro;
