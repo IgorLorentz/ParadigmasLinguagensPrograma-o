@@ -72,7 +72,8 @@ public:
         }
         return valorFinal;
     }
-    int BnToDec(int x){
+
+    int BnToDec(int x) {
         int base = 1;
         int temp = x;
         int digFinal;
@@ -91,13 +92,44 @@ public:
     int DecToBin(int x) {
         std::string bin = " ";
         int resultado = 0;
-        while (x>0){
+        while (x > 0) {
             bin += std::to_string(x % 2);
             x = x / 2;
         }
         resultado = std::stoi(bin);
 
         return resultado;
+    }
+
+    std::vector<int> FatoracaoNumerosPrimos(int x) {
+        std::vector<int> fatores;
+
+        while (x % 2 == 0) {
+            fatores.push_back(2);
+            x /= 2;
+        }
+
+        while (x % 3 == 0) {
+            fatores.push_back(3);
+            x /= 3;
+        }
+
+        for (int i = 5; i * i <= x; i += 6) {
+            while (x % i == 0) {
+                fatores.push_back(i);
+                x /= i;
+            }
+            while (x % (i + 2) == 0) {
+                fatores.push_back(i + 2);
+                x /= (i + 2);
+            }
+        }
+
+        if (x > 1) {
+            fatores.push_back(x);
+        }
+
+        return fatores;
     }
 
 };
