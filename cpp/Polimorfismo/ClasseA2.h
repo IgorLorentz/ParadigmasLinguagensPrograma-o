@@ -1,7 +1,6 @@
 #ifndef CLASSEA2_H
 #define CLASSEA2_H
-#include <ClasseA.h>
-
+#include "ClasseA.h"
 
 class ClasseA2 : public ClasseA
 {
