@@ -1,7 +1,7 @@
 package Polimorfismo;
 
 public class Paralelepipedo extends Figuras{
-    Paralelepipedo(String nome, int dim1, int dim2, int dim3){
+    Paralelepipedo(String nome, double dim1, double dim2, double dim3){
         this.nome = nome;
         this.dim1 = dim1;
         this.dim2 = dim2;

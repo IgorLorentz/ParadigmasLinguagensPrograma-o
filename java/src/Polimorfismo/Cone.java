@@ -2,7 +2,7 @@ package Polimorfismo;
 
 public class Cone extends Figuras{
 
-    Cone(String nome, int dim1, int dim2, int dim3) {
+    Cone(String nome, double dim1, double dim2, double dim3) {
         this.nome = nome;
         this.dim1 = dim1;
         this.dim2 = dim2;
