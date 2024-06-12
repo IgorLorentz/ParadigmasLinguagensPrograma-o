@@ -21,4 +21,7 @@ public class Esfera extends Figuras{
         System.out.println(nome + dim1);
     }
 
+    public void aumentar(){
+        dim1 = aumento*dim1;
+    }
 }

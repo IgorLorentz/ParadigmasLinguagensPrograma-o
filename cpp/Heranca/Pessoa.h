@@ -1,9 +1,5 @@
-//
-// Created by luiza on 10/06/2024.
-//
-
-#ifndef PARADIGMASLINGUAGENSPROGRAMACAOO_PESSOA_H
-#define PARADIGMASLINGUAGENSPROGRAMACAOO_PESSOA_H
+#ifndef PESSOA_H
+#define PESSOA_H
 
 
 class Pessoa {
@@ -19,4 +15,4 @@ protected:
 };
 
 
-#endif //PARADIGMASLINGUAGENSPROGRAMACAOO_PESSOA_H
+#endif PESSOA_H

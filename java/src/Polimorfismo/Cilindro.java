@@ -2,7 +2,7 @@ package Polimorfismo;
 
 public class Cilindro extends Figuras {
 
-    Cilindro(String nome, int dim1, int dim2) {
+    Cilindro(String nome, double dim1, double dim2) {
         this.nome = nome;
         this.dim1 = dim1;
         this.dim2 = dim2;
@@ -22,5 +22,10 @@ public class Cilindro extends Figuras {
     }
     void display(){
         System.out.println(nome + dim1 + dim2);
+    }
+
+    public void aumentar(){
+        dim1 = aumento*dim1;
+        dim2 = aumento*dim2;
     }
 }

@@ -1,16 +1,15 @@
 package Polimorfismo;
 
-public class Figuras {
+public abstract class Figuras {
     String nome;
     double dim1;
     double dim2;
     double dim3;
+    double aumento = 20;
 
-    public double area() {
-        return 0;
-    }
+    public abstract double area();
 
-    public double volume() {
-        return 0;
-    }
+    public abstract double volume();
+
+    public abstract void aumentar();
 }

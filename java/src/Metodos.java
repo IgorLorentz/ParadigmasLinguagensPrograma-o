@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Metodos {
 
@@ -29,25 +31,34 @@ public class Metodos {
         return f;
     }
 
-    //  public int MDC(int x, int y) {
+    public int MDC(int x, int y) {
+        while (y != 0) {
+            int temp = y;
+            y = x % y;
+            x = temp;
+        }
+        return x;
+    }
 
-    // }
+    public List<Integer> NumerosPrimos(int x) {
+        List<Integer> primos = new ArrayList<>();
 
-    public int [] NumerosPrimos(int x) {
-        int cont = 0;
-        int[] primos = new int[x + 1];
-        if (x <= 1)
-            return primos;
-
+        boolean[] ePrimo = new boolean[x + 1];
         for (int i = 2; i <= x; i++) {
-            primos[i] = 0;
+            ePrimo[i] = true;
         }
 
-        for (int p = 2; p * p <= x; p++) {
-            if (primos[p]) {
-                for (int i = p * p; i <= x; i += p) {
-                    primos[i] = false;
+        for (int i = 2; i * i <= x; i++) {
+            if (ePrimo[i]) {
+                for (int j = i * i; j <= x; j += i) {
+                    ePrimo[j] = false;
                 }
+            }
+        }
+
+        for (int i = 2; i <= x; i++) {
+            if (ePrimo[i]) {
+                primos.add(i);
             }
         }
 
@@ -85,19 +96,34 @@ public class Metodos {
     public int DecToBin(int x) {
         String bin = " ";
         int resultado = 0;
-        while (x>0){
+        while (x > 0) {
             bin += x % 2;
             System.out.println(bin);
             x = x / 2;
         }
         resultado = Integer.parseInt(bin);
 
-    return resultado;
+        return resultado;
     }
 
-   // public int FatoracaoNumerosPrimos() {
+    public List<Integer> FatoracaoNumerosPrimos(int x) {
+        List<Integer> fatores = new ArrayList<>();
 
-   // }
+        if (x <= 1) {
+            System.out.println("O número deve ser maior que 1.");
+            return fatores;
+        }
+
+        // Testa os fatores de 2 em diante
+        for (int i = 2; i <= x; i++) {
+            while (x % i == 0) {
+                fatores.add(i);
+                x /= i;
+            }
+        }
+
+        return fatores;
+    }
 
 }
 
